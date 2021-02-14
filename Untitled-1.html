@@ -17,7 +17,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <a class="navbar-brand" href="#carouselExampleControls"><img class="rounded-circle" src="img/img1.jpeg" alt="foto van jostin" width="50" height="50"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -94,12 +94,28 @@
     <!-- einde van de header begin van main  -->
     <main class="container-fluid">
 
-        <div id="About-us" class="jumbotron jumbotron-fluid">
+        <div id="About-us" class="jumbotron jumbotron-fluid bg-primary text-white">
           
             <div class="container"><img src="img/img1.jpeg" alt="foto van jostin" width="200" height="200">
                 <h1 class="display-4">Over Jostin</h1>
-                <p class="lead">Hoi ik ben Jostin een huidige sofware developer student bij ROC Mondriaan. <br>
-                  dit is mijn Portfolio met beetje informatie over wat ik leer en wat ik uiteindelijk wil weten aan het einde van de opleiding.
+                <dl class="row">
+                    <dt class="col-sm-3">Naam </dt>
+                    <dd class="col-sm-9">Jostin Francisco Noboa Navarro.</dd>
+                  
+                    <dt class="col-sm-3">leeftijd </dt>
+                    <dd class="col-sm-9">27.</dd>
+
+                    <dt class="col-sm-3">Afkomst </dt>
+                    <dd class="col-sm-9">Ecuador.</dd>
+
+                    <dt class="col-sm-3">Nationaliteit </dt>
+                    <dd class="col-sm-9">Nederlands.</dd>
+
+                    <dt class="col-sm-3">Woonachtig  </dt>
+                    <dd class="col-sm-9">Den Haag.</dd>
+                  </dl>
+                <p class="lead">Hoi ik ben een huidige sofware developer student bij ROC Mondriaan. <br>
+                beetje informatie over wat ik leer en wat ik uiteindelijk wil weten aan het einde van de opleiding.
                 </p>
             </div>
         </div>
@@ -147,6 +163,20 @@
         <!--updates -->
         <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
             <h1 class="text-center">Updates</h1>
+            <div class="container">
+                <div class="row text-center">
+                  <div class="col ">
+                    <img  src="img/voorbeeld.PNG" alt="voorbeeld-site"  height="400">
+                  </div>
+                  <div class="col">
+                      <h2>Projecten</h2>
+                    <p>Wat u hier kan zien is een project voor een evenemente platform.<br>
+                        de huisstijl van de klant is zwart en goud, de platform moest reserveren zo makelijk mogelijk maken.<br> <br>
+                        de site is bedoeld voor jongeren & jong-volwasen. alle evenemente moeten te zien zijn van dichtbij tot de meeste veder weg.
+                    </p>
+                  </div>
+                </div>
+            </div>
 
             <!--Controls-->
             <div class="controls-top  text-center ">
@@ -302,7 +332,7 @@
                 <div id="Galerij" class="container-fluid">
                     <div class="col">
                         <!-- Content here -->
-                        <div class="jumbotron jumbotron-fluid col-sm">
+                        <div class="jumbotron jumbotron-fluid col-sm bg-primary text-white">
                             <div class="container">
                                 <h1 class="display-4">Galerij</h1>
                                 <p class="lead">hier zie je de programeer talen die ik wil leren <br>
@@ -537,40 +567,40 @@
                     </div>
     </main>
 
-    <footer class="bg-dark">
+    <footer class="bg-primary text-white ">
         <section class="container">
             <ul class="nav justify-content-center">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#carouselExampleControls">Home</a>
+                    <a class="nav-link active text-white" href="#carouselExampleControls">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#About-us">Over Jostin</a>
+                    <a class="nav-link text-white" href="#About-us">Over Jostin</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#multi-item-example">Updates</a>
+                    <a class="nav-link text-white" href="#multi-item-example">Updates</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Galerij">Galerij</a>
+                    <a class="nav-link text-white" href="#Galerij">Galerij</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Contact">Contact</a>
+                    <a class="nav-link text-white" href="#Contact">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#multi-item-bodem">FAQ</a>
+                    <a class="nav-link text-white" href="#multi-item-bodem">FAQ</a>
                 </li>
             </ul>
             <ul class="nav justify-content-center">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Active</a>
+                    <a class="nav-link active text-white" href="#">Active</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link text-white" href="#">Link</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link text-white" href="#">Link</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
+                    <a class="nav-link disabled text-white" href="#">Disabled</a>
                 </li>
             </ul>
 
